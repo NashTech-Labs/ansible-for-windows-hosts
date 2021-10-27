@@ -1,0 +1,5 @@
+- name: Ensure apache-httpd installed
+  win_chocolatey:
+    name: apache-httpd
+    state: present
+    version: 2.4.51
